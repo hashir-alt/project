@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#user-list-heading {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.form-control {
+  width: 147px;
+    padding: 10px;
+    font-size: 16px;
+    padding-right: 40px;
+    margin-left: 252%;
+    /* border: blue; */
+    border: 1px dotted green;
+}
+
+.search-icon {
+  position: relative;
+  top: 54%;
+  right: 10px;
+  transform: translateY(-155%);
+  width: 20px;
+  height: 20px;
+  margin-left: 330%;
+}
+
+.card-deck {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 67px;
+  margin-top: 20px;
+}
+
+.user-card {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.user-card h5 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.user-card p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.user-image{
+  margin-left: 30%;
+}
